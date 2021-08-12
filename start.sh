@@ -7,3 +7,4 @@ do
 done
 echo Tailscale started
 ALL_PROXY=socks5://localhost:1055/
+while true; do foo; sleep 2; done
